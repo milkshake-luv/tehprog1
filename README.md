@@ -14,3 +14,11 @@ import find_same
 print(find_same.count_dif([1,1,3,5,4]))
 ```
 
+Код самой библиотеки
+--------------------
+```
+def count_dif(mas):
+    print(len(set(mas)))
+```
+
+
